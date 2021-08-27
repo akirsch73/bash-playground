@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+echo '1. create a new file'
+newfile= touch $1
+echo 'the new file has been created' newfile
+
+
+echo '2.'

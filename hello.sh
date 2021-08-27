@@ -41,7 +41,7 @@ hello_loop () {
 
     for name in Alex Markus Moni Klaus
         do
-        hello_world2 $name   
+        hello_world2 $name  
         
         done 
     
