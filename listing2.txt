@@ -1,0 +1,2 @@
+udp6       0      0 fe80::e209:8cd2:c32:546 :::*                                878/NetworkManager  
+udp6       0      0 fe80::f47a:d155:c51:546 :::*                                878/NetworkManager  

@@ -4,4 +4,12 @@ newfile= touch $1
 echo 'the new file has been created' newfile
 
 
-echo '2.'
+echo 'create ' $2 ' steps & expects'
+for i in {0..$2}
+do  
+ echo 'Step ' i > newfile
+ echo ''> newfile
+ echo 'Exptected' i > newfile
+ echo ''> newfile
+ echo 'xxxxxxxxxx' > newfile
+done
